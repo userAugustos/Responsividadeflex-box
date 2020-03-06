@@ -1,0 +1,48 @@
+body, ul, li, p{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+ .header{
+ 	display: flex; 
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	flex-wrap: wrap;
+ 	padding: 14px;
+ 	background-color: black;
+ 	color: white;
+ }
+ .menu{
+ 	display: flex;
+ }
+ .menu li{
+ 	margin-left: 10px;
+ }
+ .menu li a{
+ 	display: block;
+ 	padding: 1.5vh;
+ }
+ /*flex-box*/
+ h3{
+ 	text-align: center;
+ 	margin-top: 10px;
+ }
+ .flex{
+ 	display: flex;
+ 	flex-wrap: wrap; 
+ 	max-width: 900px;/*aqui eu posso definir um maximo para esse conatiner das iamgens*/
+ 	margin: auto; /*margin 0 auto vai definir que o item vai ser centralizado ao passar do max-width*/
+ }
+ .flex div{
+ 	flex: 1 1 300px; /*aqui to definindo limite minimo de largura*/
+ 	margin: 1%; /*margin é o que ta definindo a posição desse grupo de itens*/ 
+ }
